@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.section_wrapper {
+    background-color: #EAF0F2;
+    text-align: center;  
+    height: 100vh;     
+}
+
+.content {
+    width: fit-content;    
+    margin: auto;
+}
+
+.main_title_wrapper {
+    color: #788690;
+    font-size: 24px;
+    padding: 50px 0;    
+}
+
+.days_wrapper {
+    display: flex;   
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.days {
+    padding-right: 10px;    
+}
+
+.day {
+    background-color: #AA9DED;
+    text-align: right;
+    padding: 10px 10px 10px 0;
+    font-size: 14px;
+    color: #D9D3F7;
+    border-radius: 4px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+}
+
+.input_wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.input_area_1 {
+    text-align: left;
+    height: 350px;
+    width: 700px;
+}
+
+.input_area_2 {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.input_year {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.year {
+    color: #76848F;
+    font-size: 14px;
+}
+
+.update_btn {
+    padding: 10px 20px;
+    background-color: #0186EF;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #BFDFFA;
+}
