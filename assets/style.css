@@ -39,7 +39,7 @@ body {
     border-radius: 4px;
 }
 
-.card {
+.monday, .tuesday, .wednesday, .thursday, .friday, .saturday, .sunday {
     height: 150px;
     width: 150px;
     background-color: white;
